@@ -1,12 +1,11 @@
 {
   "name": "blog_front_end",
-  "homepage": "http://www.wsfuzeren.com/",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start -p $PORT"
   },
   "dependencies": {
     "@ant-design/icons": "^4.1.0",
